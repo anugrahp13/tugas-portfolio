@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="src/assets/image/avatar/favicon.png">
     <link rel="stylesheet" href="src/assets/style/css/index35431389671.css">
+    <link rel="stylesheet" href="src/assets/style/css/index6254819703.css">
     <title>Anugrah Prastyo - Frontend Web Developer</title>
 </head>
 <body class="bg-white text-slate-800 dark:bg-slate-900 dark:text-white transition-colors">
@@ -369,5 +370,21 @@
     <!-- Back to top End -->
 
     <script src="src/assets/style/js/index35431389671.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".preview", {
+            cssMode: true,
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+            pagination: {
+                el: ".swiper-pagination",
+            },
+            mousewheel: true,
+            keyboard: true,
+            });
+      </script>
 </body>
 </html>
